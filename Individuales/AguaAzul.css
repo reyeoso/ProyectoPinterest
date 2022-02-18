@@ -16,7 +16,6 @@ nav{
     align-items: center;
     display: flex;
     flex-direction: row;
-    /* box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.1); */
 }
 a.IconoPinterest{
     margin-left: 0.5%;
@@ -102,18 +101,18 @@ main{
     display: flex;
     justify-content: center;
 }
-section.ImagenSanCris{
+section.ImagenAguaAzul{
     width: 35%;
     height: 89vh;
     display: flex;
     text-align: center;
     justify-content: center;
 }
-section.ImagenSanCris a.SanCris{
+section.ImagenAguaAzul a.AguaAzul{
     width: 100%;
     height: 89vh;
 }
-section.ImagenSanCris img.imgSanCris{
+section.ImagenAguaAzul img.imgAguaAzul{
     width: 100%;
     height: 89vh;
     border-radius: 5%;
@@ -149,15 +148,13 @@ p.parrafoPeliculaGris:hover{
 p.parrafoPeliculaGris:hover + .PeliculaGris{
     opacity: 0.4;
 }
+
 /* Sección para la información de la imagen */
 section.InformacionImagen{
-    /* margin: auto; */
     margin-top: 0.5%;
     margin-left: 1%;
     width: 35%;
     height: 89vh;
-    /* border-style: solid;
-    border-color: aqua; */
     display: flex;
     flex-direction: column;
 }
@@ -279,38 +276,23 @@ section.Parrafo p{
     margin-top: 0px;
 }
 a.aPerfilAutor{
-    border-style: solid;
-    border-color: red;
     width: 42%;
     height: 90%;
+    margin-left: 3%;
     text-decoration: none;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: black;
     display: flex;
-    text-align: center;
 }
-a.aPerfilAutor a.CirculoConLetra{
-    border-style: solid;
-    border-color: aquamarine;
-    margin-left: 5%;
-    margin-right: 5%;
-    border-radius: 50%;
-    width: 31%;
-    height: 95%;
-    font-size: 20px;
-    font-weight: bold;
-    background-color:#EFEFEF;
-}
-a.CirculoConLetra img{
-    width: 10%;
-    height: 70%;
+a.aPerfilAutor img.imgPerfil{
+    width: 4vw;
+    height: 8vh;
     border-radius: 50px;
 }
 section.datosPerfil {
-    border-style: solid;
-    border-color: red;
     width: 50%;
     height: 75%;
+    margin-left: 2%;
     font-size: 16px;
     text-align: left;
     line-height: 25%;

@@ -151,33 +151,24 @@ p.parrafoPeliculaGris:hover + .PeliculaGris{
 }
 /* Sección para la información de la imagen */
 section.InformacionImagen{
-    /* margin: auto; */
     margin-top: 0.5%;
     margin-left: 1%;
     width: 35%;
     height: 89vh;
-    /* border-style: solid;
-    border-color: aqua; */
     display: flex;
     flex-direction: column;
 }
 section.Iconos{
-    /* border-style: solid;
-    border-color: red; */
     height: 11%;
     width: 95%;
     display: flex;
     align-items: center;
 }
 section.Encabezado{
-    /* border-style: solid;
-    border-color: red; */
     width: 95%;
     height: 17%;
 }
 section.Parrafo{
-    /* border-style: solid;
-    border-color: red; */
     width: 85%;
     height: auto;
 }
@@ -300,8 +291,6 @@ section.CirculoConLetra{
     background-color:#EFEFEF;
 }
 section.CirculoConLetra p{
-    /* margin-top: 7%;
-    margin-bottom: 1%;*/
     margin-top:20%;
     font-size: 20px;
     font-weight: bold;
@@ -309,8 +298,6 @@ section.CirculoConLetra p{
 section.datosPerfil {
     width: 50%;
     height: 75%;
-    /* border-style: solid;
-    border-color: aqua; */
     font-size: 16px;
     text-align: left;
     line-height: 25%;
