@@ -1,0 +1,336 @@
+body{
+    width: 98vw;
+    height: 98vh;
+    margin: 0px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+/* NAVBAR ...*/
+nav{
+    width: 99%;
+    height: 11%;
+    margin-left: 1%;
+    margin-right: 1%;
+    border-color: white;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+a.IconoPinterest{
+    margin-left: 0.5%;
+    margin-top: 0.3%;
+    width: 7%;
+    height: auto;
+}
+img.IconoPinterest{
+    margin: 5%;
+    width: 100%;
+    height:100%;
+}
+nav a.Hoy, nav a.Explorar{
+    margin-left: 1.5%;
+    margin-right: 0.7%;
+    color: black;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+}
+input.inputNav{
+    width: 58.9%;
+    height: 54%;
+    margin-left: 0.5%;
+    padding-left: 1.8%;
+    margin-right: 0.7%;
+    border-radius: 70px;
+    border-style: solid;
+    border-color: #DEDEDE;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+}
+button.botonIniciarSesión, button.botonRegistrarse{
+    border-style: solid;
+    border-radius: 30px;
+    width: 8.5%;
+    height: 59%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+}
+button.botonRegistrarse{
+    margin-left: 0.6%;
+    background-color: #EFEFEF;;
+    border-color: #EFEFEF;;
+}
+button.botonIniciarSesión{
+    margin: 0.3%;
+    background-color: white;
+    border-color: white;
+}
+button.botonIniciarSesión:hover{
+    background-color: #EFEFEF;;
+    border-color: #EFEFEF;;
+}
+button.botonRegistrarse:hover{
+    background-color: #DEDEDE;;
+    border-color: #DEDEDE;
+}
+a.IconoFlechaHaciaAbajo{
+    margin-left: 0.7%;
+    margin-top: 0.3%;
+    width: 1.5%;
+    height: 25%;
+    border-radius:50%;
+}
+img.IconoFlechaHaciaAbajo{
+    margin: 5%;
+    width: 100%;
+    height:100%;
+}
+a.IconoFlechaHaciaAbajo:hover{
+    background-color: #EFEFEF;
+}
+/* NAVBAR */
+
+/* MMMAAAIIINNN */
+main{
+    width: 100%;
+    height: 89vh;
+    display: flex;
+    justify-content: center;
+}
+section.ImagenEden{
+    width: 35%;
+    height: 89vh;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+section.ImagenEden a.Eden{
+    width: 100%;
+    height: 89vh;
+}
+section.ImagenEden img.imgEden{
+    width: 100%;
+    height: 89vh;
+    border-radius: 5%;
+}
+section.PeliculaGris{
+    width: 34.8%;
+    height: 89vh;
+    border-radius: 5%;
+    background-color: black;
+    opacity: 0;
+    position: absolute;
+}
+p.parrafoPeliculaGris{
+    visibility: hidden;
+    width: 18%;
+    position: absolute;
+    margin-top: 6%;
+    color: white;
+    font-size: 22px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+section.PeliculaGris:hover{
+    opacity: 0.4;
+    cursor: pointer;
+}
+section.PeliculaGris:hover + p.parrafoPeliculaGris{
+    visibility: visible;
+    cursor: pointer;
+}
+p.parrafoPeliculaGris:hover{
+    cursor: pointer;
+}
+p.parrafoPeliculaGris:hover + .PeliculaGris{
+    opacity: 0.4;
+}
+
+/* Sección para la información de la imagen */
+section.InformacionImagen{
+    margin-top: 0.5%;
+    margin-left: 1%;
+    width: 35%;
+    height: 89vh;
+    display: flex;
+    flex-direction: column;
+}
+section.Iconos{
+    /* border-style: solid;
+    border-color: red; */
+    height: 11%;
+    width: 95%;
+    display: flex;
+    align-items: center;
+}
+section.Encabezado{
+    width: 75%;
+    height: 11%;
+}
+section.Encabezado a{
+    text-decoration: none;
+    color: black;
+}
+section.Parrafo{
+    width: 85%;
+    height: auto;
+}
+section.PerfilAutor{
+    height: 11%;
+}
+section.Botones{
+    margin-top: 2%;
+    width: 98vw;
+    height: 4.5%;
+    display: flex;
+}
+footer {
+    height: auto;
+    margin-top: 3%;
+    margin-left: 3%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 11px;
+}
+footer a{
+    text-decoration: none;
+    color: black;
+}
+a.aUpload{
+    margin-left: 4%;
+    width: 8%;
+    height: 50%;
+    text-align: center;
+    border-radius: 50%;
+    align-items: center;
+}
+img.imgUpload{
+    margin-top: 20%;
+    width: 50%;
+    height: 50%
+}
+a.aUpload:hover{
+    background-color: #EFEFEF;
+}
+a.a3Puntos{
+    margin-left: 0.5%;
+    width: 8%;
+    height: 50%;
+    text-align: center;
+    border-radius: 50%;
+    align-items: center;
+}
+img.img3Puntos{
+    margin-top: 25%;
+    width: 50%;
+    height: 50%
+}
+a.a3Puntos:hover{
+    background-color: #EFEFEF;
+}
+button.botonVisitar, button.botonGuardar{
+    border-style: solid;
+    border-radius: 30px;
+    width: 16%;
+    height: 75%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+}
+button.botonVisitar{
+    margin-left: 40%;
+    margin-right: 2%;
+    background-color: #EFEFEF;;
+    border-color: #EFEFEF;;
+}
+button.botonGuardar{
+    width: 18%;
+    background-color: rgb(231, 4, 4);
+    border-color: rgb(231, 4, 4);
+    color: white;
+}
+button.botonVisitar:hover{
+    background-color: #DEDEDE;;
+    border-color: #DEDEDE;
+}
+section.Encabezado p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 13px;
+    margin-top: 0px;
+    margin-left: 2%;
+}
+section.Encabezado h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 28px;
+    margin-top: 0px;
+    margin-left: 2%;
+}
+section.Parrafo p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    margin-left: 2%;
+    margin-top: 0px;
+}
+a.aPerfilAutor{
+    width: 55%;
+    height: 90%;
+    margin-left: 3%;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    display: flex;
+}
+a.aPerfilAutor img.imgPerfil{
+    width: 4vw;
+    height: 8vh;
+    border-radius: 50px;
+}
+section.datosPerfil {
+    width: 50%;
+    height: 75%;
+    margin-left: 2%;
+    font-size: 16px;
+    text-align: left;
+    line-height: 25%;
+} 
+section.Botones button{
+    margin-left: 0.5vw;
+    width: auto;
+    font-weight: bold;
+    font-size: 12px;
+    border-radius: 15px;
+    background-color: #EFEFEF;
+    border-style: solid;
+    border-color:#EFEFEF;
+}
+section.Botones a{
+    text-decoration: none;
+    color: black;
+}
+section.Botones a:hover{
+    text-decoration: underline;
+    color: gray;
+}
+img.flechaDerecha{
+    width: 4vh;
+    height: 80%;
+    cursor: pointer;
+}
+button.BotonPrivacidad{
+    position:fixed;
+    width: auto;
+    height: auto;
+    background-color: white;
+    border-style: solid;
+    border-color: white;
+    font-size: 11px;
+    border-radius: 5px;
+    box-shadow: 1px 2px 2px 2px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    bottom: 1.5%;
+    left: 0.5%;
+}
